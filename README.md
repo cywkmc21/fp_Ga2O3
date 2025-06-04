@@ -5,23 +5,26 @@ We performed density functional theory (DFT) calculations using the PBEsol funct
 The following defect reaction was studied:
 
 $$
-\mathrm{Ga_2O_3} + 2h^+ \rightarrow V_O^{2+} + O_{si}^0
+\mathrm{Ga_2O_3} + 2h^+ \rightarrow V_O^{2+} + O_{si}^0,
 $$
 
-We provide optimized structure files (400-atom supercells) for the bulk, bipolaron, and Frenkel pair configurations generated using PBEsol. The files are organized as follows:
+where $V_O^{2+}$ represents an oxygen vacancy in the +2 charge state, and $O_{si}^0$ denotes a neutral oxygen split interstitial.
+
+We provide optimized structure files (400-atom supercells) for bulk, bipolaron, and Frenkel pair configurations. All structures were optimized using PBEsol and are organized as follows:
 
 ### Crystalline β-Ga₂O₃
-- **Bulk structure:** `bulk_beta.cif`
-- **Bipolaron structure:** `bi_beta.cif`
+- **Bulk structure:** `bulk_beta.xyz`
+- **Bipolaron structure:** `bi_beta.xyz`
 - **Frenkel pair structures:**
-  - `FP_beta1.cif` — $V_{O1}^{2+} + O_{si}^0$
-  - `FP_beta2.cif` — $V_{O2}^{2+} + O_{si}^0$
-  - `FP_beta3.cif` — $V_{O3}^{2+} + O_{si}^0$
+  - `FP_beta1.xyz` — $V_{O1}^{2+} + O_{si}^0$
+  - `FP_beta2.xyz` — $V_{O2}^{2+} + O_{si}^0$
+  - `FP_beta3.xyz` — $V_{O3}^{2+} + O_{si}^0$
 
 ### Amorphous Ga₂O₃
 - **Bulk structures (three samples):**  
-  `bulk_amor1.cif`, `bulk_amor2.cif`, `bulk_amor3.cif`
+  `bulk_amor1.xyz`, `bulk_amor2.xyz`, `bulk_amor3.xyz`
 - **Bipolaron structures:**  
-  `bi.cif`, `bi_amor2.cif`, `bi_amor3.cif`
-- **Frenkel pair structures:**  
-  `FP_amor1.cif`, `FP_amor2.cif`, `FP_amor3.cif`
+  `bi_amor1.xyz`, `bi_amor2.xyz`, `bi_amor3.xyz`
+- **Frenkel pair structures (two different $V_O^{2+}$ sites per sample):**  
+  `FP1_amor1.xyz`, `FP1_amor2.xyz`, `FP1_amor3.xyz`  
+  `FP2_amor1.xyz`, `FP2_amor2.xyz`, `FP2_amor3.xyz`
