@@ -1,11 +1,11 @@
 # Frenkel Pair Defect Formation in Crystalline and Amorphous Ga₂O₃
 
-We performed density functional theory (DFT) calculations using the PBEsol functional to investigate the formation of Frenkel pair (FP) defects in both crystalline β-Ga₂O₃ and amorphous Ga₂O₃.
+We performed density functional theory (DFT) calculations using the PBEsol functional to investigate the formation of Frenkel pair (FP) defects by hole trapping in both crystalline β-Ga₂O₃ and amorphous Ga₂O₃.
 
 The following defect reaction was studied:
 
 $$
-\mathrm{Ga_2O_3} + 2h^+ \rightarrow V_O^{2+} + O_{si}^0,
+\mathrm{Ga_2O_3} + 2h^+ (bipolaron) \rightarrow V_O^{2+} + O_{si}^0 (FP),
 $$
 
 where $V_O^{2+}$ represents an oxygen vacancy in the +2 charge state, and $O_{si}^0$ denotes a neutral oxygen split interstitial.
